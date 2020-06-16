@@ -1,0 +1,153 @@
+<!--Spanning Columns and Rows
+What if the table contains data that spans multiple columns?For example, a personal calendar could have events that span across multiple hours, or even multiple days.Data can span columns using the colspan attribute. The attributes accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.Data can also span multiple rows using the rowspan attribute. The rowspan attribute is used for data that spans multiple rows (perhaps an event goes on for multiple hours on a certain day). It accepts an intege (greater than or equal to 1) to denote the number of rows it spans across.
+.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Company Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Adam’s Greenworks</td>
+        <td colspan="2">14</td>
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <td>Davie's Burgers</td>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Baker's Bike Shop</td>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Miss Sally's Southern</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Summit Resort Rentals</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Strike Fitness</td>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+    </table>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+  </body>
+</html>
+<style>
+  body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation */
+
+  .navigation {
+    box-sizing: border-box;
+    background-color: #3587a4;
+    overflow: auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    color: #fff;
+    display: inline-block;
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+  }
+
+  .active {
+    color: #88ccf1;
+  }
+
+  /* Table */
+
+  table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+  }
+
+  thead th {
+    background: #88ccf1;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+  }
+
+  th,
+  td {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+    width: 33.3333%;
+  }
+
+  .search {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #aaa;
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    width: 77%;
+  }
+</style>
