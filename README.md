@@ -1,5 +1,6 @@
 # HTML
 This repository contains all the resources and information about HTML language
+#### Basic HTML elements
 1) [What is HTML](https://github.com/Dev-John125/HTML/blob/master/What%20is%20HTML.txt)
 2) [Body_element](https://github.com/Dev-John125/HTML/blob/master/Body_element.html)
 3) [Header_element](https://github.com/Dev-John125/HTML/blob/master/Header_element.html)
@@ -15,7 +16,7 @@ This repository contains all the resources and information about HTML language
 13) [Linking to External Web pages](https://github.com/Dev-John125/HTML/blob/master/Linking_to_external_web_pages.html)
 14) [Linking to Internal Web pages](https://github.com/Dev-John125/HTML/blob/master/Linking_to_internal_web_pages.html)
 15) [Fashion Blog page](https://github.com/Dev-John125/HTML/blob/master/Fashion_Blog.html)
-#### HTML TABLES
+#### HTML Tables
 17) [Intro to tables](https://github.com/Dev-John125/HTML/blob/master/Intro_to_table.html)
 18) [Table rows](https://github.com/Dev-John125/HTML/blob/master/Table_rows.html)
 19) [Table data](https://github.com/Dev-John125/HTML/blob/master/Table_data.html)
