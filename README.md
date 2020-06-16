@@ -15,7 +15,7 @@ This repository contains all the resources and information about HTML language
 12) [HTML format and Declaration](https://github.com/Dev-John125/HTML/blob/master/Html_declaration_%26_format.html)
 13) [Linking to External Web pages](https://github.com/Dev-John125/HTML/blob/master/Linking_to_external_web_pages.html)
 14) [Linking to Internal Web pages](https://github.com/Dev-John125/HTML/blob/master/Linking_to_internal_web_pages.html)
-15) [Fashion Blog page](https://github.com/Dev-John125/HTML/blob/master/Fashion_Blog.html)
+15) [***Fashion Blog page***](https://github.com/Dev-John125/HTML/blob/master/Fashion_Blog.html)
 #### HTML Tables
 17) [Intro to tables](https://github.com/Dev-John125/HTML/blob/master/Intro_to_table.html)
 18) [Table rows](https://github.com/Dev-John125/HTML/blob/master/Table_rows.html)
@@ -25,4 +25,4 @@ This repository contains all the resources and information about HTML language
 22) [Spanning rows and columns in a table](https://github.com/Dev-John125/HTML/blob/master/Spanning%20rows%20and%20columns.html)
 23) [Table header,body & footer](https://github.com/Dev-John125/HTML/blob/master/Table_Head_body_%26_footer.html)
 24) [Styling the table with CSS](https://github.com/Dev-John125/HTML/blob/master/Styling%20with%20CSS.html)
-25) [Wine-Festival page using html tables](https://github.com/Dev-John125/HTML/blob/master/Wine-Festival.html)
+25) [***Wine-Festival page using html tables***](https://github.com/Dev-John125/HTML/blob/master/Wine-Festival.html)
